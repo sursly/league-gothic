@@ -127,6 +127,10 @@ name = liga;
 automatic = 1;
 code = "sub a by a.ss01;\012sub aacute by aacute.ss01;\012sub abreve by abreve.ss01;\012sub abreveacute by abreveacute.ss01;\012sub abrevedotbelow by abrevedotbelow.ss01;\012sub abrevegrave by abrevegrave.ss01;\012sub abrevehookabove by abrevehookabove.ss01;\012sub abrevetilde by abrevetilde.ss01;\012sub acaron by acaron.ss01;\012sub acircumflex by acircumflex.ss01;\012sub acircumflexacute by acircumflexacute.ss01;\012sub acircumflexdotbelow by acircumflexdotbelow.ss01;\012sub acircumflexgrave by acircumflexgrave.ss01;\012sub acircumflexhookabove by acircumflexhookabove.ss01;\012sub acircumflextilde by acircumflextilde.ss01;\012sub adieresis by adieresis.ss01;\012sub adotbelow by adotbelow.ss01;\012sub agrave by agrave.ss01;\012sub ahookabove by ahookabove.ss01;\012sub amacron by amacron.ss01;\012sub aogonek by aogonek.ss01;\012sub aring by aring.ss01;\012sub atilde by atilde.ss01;\012sub g by g.ss01;\012sub gbreve by gbreve.ss01;\012sub gcommaaccent by gcommaaccent.ss01;\012sub gdotaccent by gdotaccent.ss01;\012";
 name = ss01;
+},
+{
+code = "sub zero by zero.tnum;\012sub one by one.tnum;\012sub two by two.tnum;\012sub three by three.tnum;\012sub four by four.tnum;\012sub five by five.tnum;\012sub six by six.tnum;\012sub seven by seven.tnum;\012sub eight by eight.tnum;\012sub nine by nine.tnum;\012";
+name = tnum;
 }
 );
 fontMaster = (
@@ -31562,6 +31566,426 @@ width = 456;
 );
 leftKerningGroup = quotesingle;
 unicode = 0094;
+},
+{
+glyphname = zero.tnum;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = zero;
+transform = "{1, 0, 0, 1, 21.5, 0}";
+}
+);
+layerId = "6463F33F-C059-4755-9C76-9F35D70521A0";
+width = 505;
+},
+{
+components = (
+{
+alignment = -1;
+name = zero;
+transform = "{1, 0, 0, 1, 9, 0}";
+}
+);
+layerId = "1AB499B8-18A8-432D-A211-B6882CCB886D";
+width = 726;
+},
+{
+associatedMasterId = "1AB499B8-18A8-432D-A211-B6882CCB886D";
+components = (
+{
+alignment = -1;
+name = zero;
+transform = "{1, 0, 0, 1, 8.52941, 0}";
+}
+);
+layerId = "A0BB44AA-6728-5751-9140-7C32BF8F4CC2";
+name = "{76.47058824}";
+width = 609.29412;
+}
+);
+},
+{
+glyphname = one.tnum;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = one;
+transform = "{1, 0, 0, 1, 106.5, 0}";
+}
+);
+layerId = "6463F33F-C059-4755-9C76-9F35D70521A0";
+width = 505;
+},
+{
+components = (
+{
+alignment = -1;
+name = one;
+transform = "{1, 0, 0, 1, 143, 0}";
+}
+);
+layerId = "1AB499B8-18A8-432D-A211-B6882CCB886D";
+width = 726;
+},
+{
+associatedMasterId = "1AB499B8-18A8-432D-A211-B6882CCB886D";
+components = (
+{
+alignment = -1;
+name = one;
+transform = "{1, 0, 0, 1, 119.47059, 0}";
+}
+);
+layerId = "65BA1F8E-F75B-5CDA-B46F-E563B2D4696D";
+name = "{76.47058824}";
+width = 609.29412;
+}
+);
+},
+{
+glyphname = two.tnum;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = two;
+transform = "{1, 0, 0, 1, 13.5, 0}";
+}
+);
+layerId = "6463F33F-C059-4755-9C76-9F35D70521A0";
+width = 505;
+},
+{
+components = (
+{
+alignment = -1;
+name = two;
+}
+);
+layerId = "1AB499B8-18A8-432D-A211-B6882CCB886D";
+width = 726;
+},
+{
+associatedMasterId = "1AB499B8-18A8-432D-A211-B6882CCB886D";
+components = (
+{
+alignment = -1;
+name = two;
+transform = "{1, 0, 0, 1, 1.05882, 0}";
+}
+);
+layerId = "BBFA471F-7E8A-52E1-929B-BCDE6A66ACDD";
+name = "{76.47058824}";
+width = 609.29412;
+}
+);
+},
+{
+glyphname = three.tnum;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = three;
+transform = "{1, 0, 0, 1, 22.5, 0}";
+}
+);
+layerId = "6463F33F-C059-4755-9C76-9F35D70521A0";
+width = 505;
+},
+{
+components = (
+{
+alignment = -1;
+name = three;
+transform = "{1, 0, 0, 1, 11, 0}";
+}
+);
+layerId = "1AB499B8-18A8-432D-A211-B6882CCB886D";
+width = 726;
+},
+{
+associatedMasterId = "1AB499B8-18A8-432D-A211-B6882CCB886D";
+components = (
+{
+alignment = -1;
+name = three;
+transform = "{1, 0, 0, 1, 10.05882, 0}";
+}
+);
+layerId = "71B054EF-3134-5AC1-BFE9-BE20DCEDD74C";
+name = "{76.47058824}";
+width = 609.29412;
+}
+);
+},
+{
+glyphname = four.tnum;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = four;
+}
+);
+layerId = "6463F33F-C059-4755-9C76-9F35D70521A0";
+width = 505;
+},
+{
+components = (
+{
+alignment = -1;
+name = four;
+transform = "{1, 0, 0, 1, 12, 0}";
+}
+);
+layerId = "1AB499B8-18A8-432D-A211-B6882CCB886D";
+width = 726;
+},
+{
+associatedMasterId = "1AB499B8-18A8-432D-A211-B6882CCB886D";
+components = (
+{
+alignment = -1;
+name = four;
+transform = "{1, 0, 0, 1, -0, 0}";
+}
+);
+layerId = "CA02F38C-0F8F-52ED-8D21-285B13555CFC";
+name = "{76.47058824}";
+width = 609.29412;
+}
+);
+},
+{
+glyphname = five.tnum;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = five;
+transform = "{1, 0, 0, 1, 21.5, 0}";
+}
+);
+layerId = "6463F33F-C059-4755-9C76-9F35D70521A0";
+width = 505;
+},
+{
+components = (
+{
+alignment = -1;
+name = five;
+transform = "{1, 0, 0, 1, 21, 0}";
+}
+);
+layerId = "1AB499B8-18A8-432D-A211-B6882CCB886D";
+width = 726;
+},
+{
+associatedMasterId = "1AB499B8-18A8-432D-A211-B6882CCB886D";
+components = (
+{
+alignment = -1;
+name = five;
+transform = "{1, 0, 0, 1, 14.88235, 0}";
+}
+);
+layerId = "B9710855-02C6-5786-B115-2F7993D192E4";
+name = "{76.47058824}";
+width = 609.29412;
+}
+);
+},
+{
+glyphname = six.tnum;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = six;
+transform = "{1, 0, 0, 1, 17.5, 0}";
+}
+);
+layerId = "6463F33F-C059-4755-9C76-9F35D70521A0";
+width = 505;
+},
+{
+components = (
+{
+alignment = -1;
+name = six;
+transform = "{1, 0, 0, 1, 21, 0}";
+}
+);
+layerId = "1AB499B8-18A8-432D-A211-B6882CCB886D";
+width = 726;
+},
+{
+associatedMasterId = "1AB499B8-18A8-432D-A211-B6882CCB886D";
+components = (
+{
+alignment = -1;
+name = six;
+transform = "{1, 0, 0, 1, 13, 0}";
+}
+);
+layerId = "78617FA1-E389-5DC6-A044-AFBA1E0E0A1C";
+name = "{76.47058824}";
+width = 609.29412;
+}
+);
+},
+{
+glyphname = seven.tnum;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = seven;
+transform = "{1, 0, 0, 1, 50.5, 0}";
+}
+);
+layerId = "6463F33F-C059-4755-9C76-9F35D70521A0";
+width = 505;
+},
+{
+components = (
+{
+alignment = -1;
+name = seven;
+transform = "{1, 0, 0, 1, 56, 0}";
+}
+);
+layerId = "1AB499B8-18A8-432D-A211-B6882CCB886D";
+width = 726;
+},
+{
+associatedMasterId = "1AB499B8-18A8-432D-A211-B6882CCB886D";
+components = (
+{
+alignment = -1;
+name = seven;
+transform = "{1, 0, 0, 1, 47.05882, 0}";
+}
+);
+layerId = "8220E062-C463-5846-A47C-06BA65985A24";
+name = "{76.47058824}";
+width = 609.29412;
+}
+);
+},
+{
+glyphname = eight.tnum;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = eight;
+transform = "{1, 0, 0, 1, 28.5, 0}";
+}
+);
+layerId = "6463F33F-C059-4755-9C76-9F35D70521A0";
+width = 505;
+},
+{
+components = (
+{
+alignment = -1;
+name = eight;
+transform = "{1, 0, 0, 1, 23, 0}";
+}
+);
+layerId = "1AB499B8-18A8-432D-A211-B6882CCB886D";
+width = 726;
+},
+{
+associatedMasterId = "1AB499B8-18A8-432D-A211-B6882CCB886D";
+components = (
+{
+alignment = -1;
+name = eight;
+transform = "{1, 0, 0, 1, 19.23529, 0}";
+}
+);
+layerId = "26064AF7-41BE-596E-8C9D-836D9F3FD206";
+name = "{76.47058824}";
+width = 609.29412;
+}
+);
+},
+{
+glyphname = nine.tnum;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = nine;
+transform = "{1, 0, 0, 1, 12.5, 0}";
+}
+);
+layerId = "6463F33F-C059-4755-9C76-9F35D70521A0";
+width = 505;
+},
+{
+components = (
+{
+alignment = -1;
+name = nine;
+transform = "{1, 0, 0, 1, 21, 0}";
+}
+);
+layerId = "1AB499B8-18A8-432D-A211-B6882CCB886D";
+width = 726;
+},
+{
+associatedMasterId = "1AB499B8-18A8-432D-A211-B6882CCB886D";
+components = (
+{
+alignment = -1;
+name = nine;
+transform = "{1, 0, 0, 1, 10.64706, 0}";
+}
+);
+layerId = "35D0BB06-BC69-5F2F-8A38-9EABB6A659E4";
+name = "{76.47058824}";
+width = 609.29412;
+}
+);
+},
+{
+glyphname = uni2007;
+layers = (
+{
+layerId = "6463F33F-C059-4755-9C76-9F35D70521A0";
+width = 505;
+},
+{
+layerId = "1AB499B8-18A8-432D-A211-B6882CCB886D";
+width = 726;
+},
+{
+associatedMasterId = "1AB499B8-18A8-432D-A211-B6882CCB886D";
+layerId = "BFFF6392-E4D7-5994-B446-38B0D36EC1FD";
+name = "{76.47058824}";
+width = 609.29412;
+}
+);
+unicode = 2007;
+category = Separator;
+subCategory = Space;
 }
 );
 instances = (
